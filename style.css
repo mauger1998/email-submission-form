@@ -19,9 +19,13 @@ body {
     border:1px solid white;
     display:flex;
     flex-direction: column;
+    justify-content: center;
 }
 .left-container {
     border:1px solid white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .form {
     border:1px solid white;
