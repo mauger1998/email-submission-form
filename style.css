@@ -26,6 +26,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: center;
+    color:white;
 }
 .form {
     border:1px solid white;
