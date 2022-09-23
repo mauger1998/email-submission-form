@@ -18,20 +18,26 @@ body {
     height:100vh;
 }
 .right-container {
-    border:1px solid white;
     display:flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 50px;
 }
 .left-container {
-    border:1px solid white;
     display:flex;
     flex-direction: column;
     justify-content: center;
     color:white;
+    margin-left: 50px;
 }
 .form {
     border:1px solid white;
     background-color:white;
     height:50%;
+}
+.title {
+    font-weight: 700;
+}
+.paragraph {
+    font-weight: 400;
 }
