@@ -39,6 +39,7 @@ body {
     height:50%;
     width:400px;
     border-radius: 10px;
+    text-align: center;
 }
 .title {
     font-weight: 700;
