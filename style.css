@@ -60,6 +60,8 @@ input {
     width:40vw;
     height:5vh;
     padding-left:25px;
+    border-radius:5px;
+    border:0.5px solid black;
 }
 .button {
     width:40vw;
@@ -96,6 +98,7 @@ input {
     color:white;
     cursor: pointer;
 }
+
 .terms {
     color:hsl(0, 100%, 50%);
 }
