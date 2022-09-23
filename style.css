@@ -70,6 +70,11 @@ input {
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.button:hover {
+    background-color: hsl(154, 59%, 75%);
+    color:white;
+    cursor: pointer;
+}
 .foot {
     padding-top: 10px;
     font-size:10px;
@@ -90,6 +95,7 @@ input {
     color:hsl(0, 100%, 50%);
 }
 @media (max-width:400px) {
+    
     .main-container {
         display:block;
         
@@ -119,4 +125,6 @@ input {
         width:300px;
         margin-top:25px;
     }
+    
+    
 }
