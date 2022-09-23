@@ -22,16 +22,23 @@ body {
     }
     .paragraph {
         margin-bottom:25px;
+        text-align:center;
+        margin-left:50px;
     }
     .form {
         padding-top:20px;
-        width:250px;
-        margin-left:25px;
+        width:300px;
+        margin-left:50px;
     }
     .top-button {
-        width:250px;
-        margin-left:25px;
+        width:300px;
+        margin-left:50px;
     }
+    .title {
+        margin-left:50px;
+        text-align: center;
+    }
+    
 }
 .right-container {
     display:flex;
