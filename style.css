@@ -3,3 +3,8 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-image: url(images/background.png);
+    background-color: hsl(0, 100%, 74%);
+}
