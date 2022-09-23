@@ -8,3 +8,15 @@ body {
     background-image: url(images/background.png);
     background-color: hsl(0, 100%, 74%);
 }
+.main-container {
+    display:flex;
+}
+.right-container {
+    border:1px solid whitel
+}
+.left-container {
+    border:1px solid white;
+}
+.form {
+    border:1px solid white;
+}
