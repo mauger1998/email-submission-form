@@ -61,3 +61,7 @@ input {
     width:90%;
     height:12.5%;
 }
+.foot {
+    padding-top: 10px;
+    font-size:10px;
+}
