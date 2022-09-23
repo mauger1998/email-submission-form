@@ -7,9 +7,13 @@
 body {
     background-image: url(images/background.png);
     background-color: hsl(0, 100%, 74%);
+    border:1px solid black;
+    height:100vh;
 }
 .main-container {
     display:flex;
+    border:1px solid black;
+    height:100vh;
 }
 .right-container {
     border:1px solid whitel
