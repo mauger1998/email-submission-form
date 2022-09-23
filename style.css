@@ -91,6 +91,11 @@ input {
     border:none;
     border-radius:5px;
 }
+.top-button:hover {
+    background-color:hsl(248, 32%, 60%);
+    color:white;
+    cursor: pointer;
+}
 .terms {
     color:hsl(0, 100%, 50%);
 }
