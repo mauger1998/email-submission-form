@@ -37,7 +37,7 @@ body {
     border:1px solid white;
     background-color:white;
     height:50%;
-    width:400px;
+    width:px;
     border-radius: 10px;
     text-align: center;
     display:flex;
@@ -50,17 +50,18 @@ body {
 }
 .title {
     font-weight: 700;
+    font-size: 45px;
 }
 .paragraph {
     font-weight: 400;
 }
 input {
-    width:90%;
-    height:10%;
+    width:40vw;
+    height:5vh;
     padding-left:25px;
 }
 .button {
-    width:90%;
+    width:40vw;
     height:12.5%;
     background-color: hsl(154, 59%, 51%);
     color:white;
