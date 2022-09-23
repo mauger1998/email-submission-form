@@ -60,6 +60,10 @@ input {
 .button {
     width:90%;
     height:12.5%;
+    background-color: hsl(154, 59%, 51%);
+    color:white;
+    border:none;
+    border-radius: 5px;
 }
 .foot {
     padding-top: 10px;
