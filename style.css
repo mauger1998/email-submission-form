@@ -16,7 +16,9 @@ body {
     height:100vh;
 }
 .right-container {
-    border:1px solid whitel
+    border:1px solid white;
+    display:flex;
+    flex-direction: column;
 }
 .left-container {
     border:1px solid white;
