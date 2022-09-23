@@ -58,9 +58,13 @@ body {
 input {
     width:40vw;
     height:5vh;
-    padding-left:25px;
     border-radius:5px;
     border:0.5px solid black;
+    text-align: center;
+}
+
+.java {
+    background: url(images/icon-error.svg) no-repeat scroll 7px 7px;
 }
 .button {
     width:40vw;
