@@ -99,10 +99,16 @@ input {
 .terms {
     color:hsl(0, 100%, 50%);
 }
-@media (max-width:400px) {
+.terms:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media (max-width:500px) {
     
     .main-container {
-        display:block;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
         
     }
     .paragraph {
@@ -113,12 +119,12 @@ input {
     .form {
         padding-top:20px;
         width:300px;
-        margin-left:50px;
+        height:400px;
+        
     }
     .top-button {
         width:300px;
         height:75px;
-        margin-left:50px;
         padding-left:30px;
         padding-right:35px;
         text-align: center;
