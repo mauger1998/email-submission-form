@@ -15,31 +15,9 @@ body {
     display:flex;
     height:100vh;
 }
-@media (max-width:400px) {
-    .main-container {
-        display:block;
-        
-    }
-    .paragraph {
-        margin-bottom:25px;
-        text-align:center;
-        margin-left:50px;
-    }
-    .form {
-        padding-top:20px;
-        width:300px;
-        margin-left:50px;
-    }
-    .top-button {
-        width:300px;
-        margin-left:50px;
-    }
-    .title {
-        margin-left:50px;
-        text-align: center;
-    }
+
     
-}
+
 .right-container {
     display:flex;
     flex-direction: column;
@@ -110,4 +88,35 @@ input {
 }
 .terms {
     color:hsl(0, 100%, 50%);
+}
+@media (max-width:400px) {
+    .main-container {
+        display:block;
+        
+    }
+    .paragraph {
+        margin-bottom:25px;
+        text-align:center;
+        width:300px;
+    }
+    .form {
+        padding-top:20px;
+        width:300px;
+        margin-left:50px;
+    }
+    .top-button {
+        width:300px;
+        height:75px;
+        margin-left:50px;
+        padding-left:30px;
+        padding-right:35px;
+        text-align: center;
+
+    }
+    .title {
+        text-align: center;
+        font-size:35px;
+        width:300px;
+        margin-top:25px;
+    }
 }
