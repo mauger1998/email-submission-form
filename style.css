@@ -84,3 +84,6 @@ input {
     border:none;
     border-radius:5px;
 }
+.terms {
+    color:hsl(0, 100%, 50%);
+}
