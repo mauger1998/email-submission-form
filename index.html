@@ -28,13 +28,17 @@
       <button class="top-button">Try it free 7 days then $20/mo. thereafter</button>
       <form id="form" action="/" method="GET" class="form" >
       
-        <input type="text" value="First Name" id="name"> 
+        <input type="text" value="First Name" id="name">
+        <p id="first-error" class="all-error">First name cannot be empty!</p> 
         <br>
         <input id="last" type="text" value="Last Name">
+        <p id="second-error" class="all-error">Last name cannot be empty!</p>
         <br>
-        <input id="email" type="email" value="Email Address"> 
+        <input id="email" type="email" value="Email Address">
+         
         <br>
         <input id="password" type="password" value="Password">
+        <p id="fourth-error" class="all-error">Password cannot be password</p>
         <br>
 
         <button class="button">Claim your free trial</button>

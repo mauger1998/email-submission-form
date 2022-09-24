@@ -146,7 +146,12 @@ input {
     
     
 }
-.error {
-    position: relative;
-    
+.all-error {
+    font-size:10px;
+    display:none;
+    color:red;
+}
+
+.appear {
+    display:block;
 }
